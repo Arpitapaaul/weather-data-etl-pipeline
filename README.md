@@ -225,21 +225,6 @@ Generates seven analytical DataFrames from the loaded data and exports them to a
 
 ---
 
-## 🖼️ Screenshots
-
-### Live Weather Page
-> 📸 _Add your live weather page screenshot here_
-
-### Analytics Dashboard
-> 📸 _Add your analytics dashboard screenshot here_
-
-### Excel Report (Multi-Sheet)
-> 📸 _Add your Excel report screenshot here_
-
-### Terminal Pipeline Output
-> 📸 _Add your terminal ETL run output here_
-
----
 
 ## 🔭 Future Enhancements
 
