@@ -42,22 +42,8 @@ CITIES = [
     "Chennai"
 ]
 
-# MYSQL CONFIG
-DB_HOST = "localhost"
-DB_PORT = 3306
-DB_USER = "root"
-DB_PASSWORD = "password"
-DB_NAME = "weather_db"
-
-DB_URL = (
-    f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}"
-    f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-)
-
-DB_URL_NO_DB = (
-    f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}"
-    f"@{DB_HOST}:{DB_PORT}"
-)
+# SQLITE CONFIG
+DB_URL = "sqlite:///weather.db"
 
 # REPORT PATHS
 REPORT_CSV_PATH = REPORTS_DIR / "weather_summary.csv"

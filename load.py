@@ -104,7 +104,7 @@ class WeatherLoader:
 
     def __init__(self):
         self.engine = None
-        self._ensure_database()
+        #self._ensure_database()
         self._setup_engine()
         self._create_tables()
 
@@ -142,12 +142,9 @@ class WeatherLoader:
     def _setup_engine(self) -> None:
         """Create the SQLAlchemy engine connected to our database."""
         self.engine = create_engine(
-            config.DB_URL,
-            echo=False,            # Set True to see raw SQL in terminal
-            pool_size=5,           # Keep 5 connections in pool
-            pool_pre_ping=True,    # Test connections before using them
-            pool_recycle=3600,     # Recycle connections after 1 hour
-        )
+    config.DB_URL,
+    echo=False
+)
         logger.info("[LOAD] SQLAlchemy engine created")
 
     def _create_tables(self) -> None:
