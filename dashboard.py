@@ -6,7 +6,8 @@ import plotly.express as px
 from database import get_all_weather, fetch_search_analytics
 
 
-st.markdown("""
+def show_dashboard():
+    st.markdown("""
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
@@ -294,10 +295,6 @@ hr {
 
 </style>
 """, unsafe_allow_html=True)
-
-
-def show_dashboard():
-
     st.markdown("""
 <div style="text-align:center; padding:10px;">
 <h1 style="
