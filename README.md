@@ -47,7 +47,7 @@ Streamlit Dashboard (app.py)  ← Live Weather Page + Analytics Dashboard
 | Ingestion | Python, Requests |
 | Data Processing | Pandas 2.2.3 |
 | Data Validation | Custom rule engine (validate.py) |
-| Storage | MySQL 8.0 via PyMySQL |
+| Storage | MySQL 8.0 |
 | ORM | SQLAlchemy 2.0.23 |
 | Reporting | openpyxl (multi-sheet Excel) |
 | Visualisation | Streamlit 1.45.1, Plotly 5.24.1 |
